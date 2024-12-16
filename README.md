@@ -30,4 +30,6 @@ Generate gRPC code from .proto file
 Run the server and client scripts
 
 Generating gRPC Code
+```bash
 bashCopypython -m grpc_tools.protoc -I. --python_out=. --grpc_python_out=. chat.proto
+```
